@@ -6,12 +6,6 @@
 #include <string.h>
 
 /*
-    Structura list reprezinta un nod din lista care
-    contine: index-ul orasului in care se termina ruta,
-    dimensiunea vectorului de tronsoane, vectorul ce contine
-    gradul de degradare al tronsoanelor si pointer la urmatorul 
-    nod din lista.
-
     This structure represents a node from a list which contain:
     the size of the array of segments, the array of segments, the
     index of the city which the route ends and a pointer to the next
@@ -46,9 +40,6 @@ List addLast(List list, int idx, int size, float *arr);
 int isEmptyList(List list);
 
 /*
-    Returneaza cel mai mare element de pe pozitia 0
-    (din vectorii de tronsoane) din lista.
-
     It returns the biggest element from the
     first position (from the array of segments)
     from list.
