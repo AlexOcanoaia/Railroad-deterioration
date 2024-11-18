@@ -6,7 +6,7 @@ coefficient. The coefficient will modify every year by these rules:
 
 - if the coefficient is diferent from zero, then i double that value
 
--if the coefficient is equal to zero, then i will take the biggest neighbour
+- if the coefficient is equal to zero, then i will take the biggest neighbour
 (if there are other routes from that city the first segment, in that array
 will be neighbour to the coefficient)
 
